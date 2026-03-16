@@ -1,14 +1,22 @@
 {
-  "lesson_idx": 0,
+  "lesson_idx": 2,
   "group_size": 3,
   "stats": {
     "K": {
-      "ok": 46,
-      "fail": 0
+      "ok": 143,
+      "fail": 7
     },
     "M": {
-      "ok": 30,
-      "fail": 2
+      "ok": 132,
+      "fail": 7
+    },
+    "R": {
+      "ok": 107,
+      "fail": 9
+    },
+    "S": {
+      "ok": 14,
+      "fail": 1
     }
   }
 }
