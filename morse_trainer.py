@@ -104,6 +104,8 @@ def play_morse(text, wpm=WPM, farnsworth=FARNSWORTH, freq=FREQ):
 
     if audio_parts:
         audio = np.concatenate(audio_parts)
+        # přidej 200ms ticha na konec — stream dohraje čistě
+        audio = np.concatenate([audio, silence(0.2)])
         sd.play(audio, samplerate=SAMPLE_RATE)
         sd.wait()
 
